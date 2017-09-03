@@ -1,9 +1,9 @@
-package contacts;
+package com.umdcs4995.whiteboard.contacts;
 
 import java.util.LinkedList;
 
 /**
- * ContactList stores a list of whiteboard-contacts.
+ * ContactList stores a list of whiteboard-com.umdcs4995.whiteboard.contacts.
  */
 
 

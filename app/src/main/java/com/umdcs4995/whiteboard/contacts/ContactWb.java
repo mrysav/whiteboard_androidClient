@@ -1,4 +1,4 @@
-package contacts;
+package com.umdcs4995.whiteboard.contacts;
 
 /**
  * Created by rob on 2/14/16.

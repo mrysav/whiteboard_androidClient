@@ -36,7 +36,7 @@ import android.widget.Toast;
 import com.umdcs4995.whiteboard.AppConstants;
 import com.umdcs4995.whiteboard.CameraWb;
 import com.umdcs4995.whiteboard.Globals;
-import com.umdcs4995.whiteboard.MainActivity;
+import com.umdcs4995.whiteboard.Activities.MainActivity;
 import com.umdcs4995.whiteboard.R;
 import com.umdcs4995.whiteboard.drawing.DrawingView;
 import com.umdcs4995.whiteboard.services.SocketService;

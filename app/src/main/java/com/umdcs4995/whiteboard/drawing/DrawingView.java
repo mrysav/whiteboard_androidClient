@@ -16,7 +16,7 @@ import android.view.ScaleGestureDetector;
 import android.view.View;
 
 import com.umdcs4995.whiteboard.Globals;
-import com.umdcs4995.whiteboard.MainActivity;
+import com.umdcs4995.whiteboard.Activities.MainActivity;
 import com.umdcs4995.whiteboard.protocol.WhiteboardProtocol;
 import com.umdcs4995.whiteboard.services.ConnectivityException;
 import com.umdcs4995.whiteboard.whiteboarddata.LineSegment;

@@ -1,4 +1,4 @@
-package contacts;
+package com.umdcs4995.whiteboard.contacts;
 
 import android.annotation.TargetApi;
 import android.app.Activity;

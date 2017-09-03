@@ -31,7 +31,7 @@ import com.google.android.gms.drive.DriveApi.DriveContentsResult;
 import com.google.android.gms.drive.MetadataChangeSet;
 import com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential;
 import com.google.api.services.drive.DriveScopes;
-import com.umdcs4995.whiteboard.MainActivity;
+import com.umdcs4995.whiteboard.Activities.MainActivity;
 import com.umdcs4995.whiteboard.R;
 import com.umdcs4995.whiteboard.uiElements.WhiteboardDrawFragment;
 

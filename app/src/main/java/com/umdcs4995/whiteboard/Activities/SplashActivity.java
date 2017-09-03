@@ -1,14 +1,13 @@
-package com.umdcs4995.whiteboard;
+package com.umdcs4995.whiteboard.Activities;
 
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Handler;
-import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.umdcs4995.whiteboard.Globals;
+import com.umdcs4995.whiteboard.R;
 import com.umdcs4995.whiteboard.drawing.DrawingEventQueue;
 import com.umdcs4995.whiteboard.whiteboarddata.GoogleUser;
 

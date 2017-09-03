@@ -51,7 +51,7 @@ import com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccoun
 import com.google.api.client.util.ExponentialBackOff;
 import com.google.api.services.gmail.GmailScopes;
 import com.umdcs4995.whiteboard.Globals;
-import com.umdcs4995.whiteboard.MainActivity;
+import com.umdcs4995.whiteboard.Activities.MainActivity;
 import com.umdcs4995.whiteboard.R;
 import com.umdcs4995.whiteboard.services.SocketService;
 import com.umdcs4995.whiteboard.whiteboarddata.GoogleUser;

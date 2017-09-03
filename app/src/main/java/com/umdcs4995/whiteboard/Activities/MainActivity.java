@@ -1,4 +1,4 @@
-package com.umdcs4995.whiteboard;
+package com.umdcs4995.whiteboard.Activities;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -57,6 +57,9 @@ import com.google.android.gms.drive.DriveId;
 import com.google.android.gms.drive.OpenFileActivityBuilder;
 import com.google.android.gms.plus.Plus;
 import com.google.android.gms.plus.Plus.PlusOptions;
+import com.umdcs4995.whiteboard.AppConstants;
+import com.umdcs4995.whiteboard.Globals;
+import com.umdcs4995.whiteboard.R;
 import com.umdcs4995.whiteboard.driveOps.DriveLoadFragment;
 import com.umdcs4995.whiteboard.driveOps.DriveSaveFragment;
 import com.umdcs4995.whiteboard.services.SocketService;
@@ -304,7 +307,7 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
                 changeMainFragment(joinBoardFragment);
                 break;
 
-            case R.id.nav_contacts://Navigates to list of contacts
+            case R.id.nav_contacts://Navigates to list of com.umdcs4995.whiteboard.contacts
                 changeMainFragment(contactListFragment);
                 break;
 

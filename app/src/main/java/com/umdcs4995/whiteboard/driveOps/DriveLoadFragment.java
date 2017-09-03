@@ -34,7 +34,7 @@ import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential;
 import com.google.api.client.json.gson.GsonFactory;
 import com.google.api.services.drive.DriveScopes;
-import com.umdcs4995.whiteboard.MainActivity;
+import com.umdcs4995.whiteboard.Activities.MainActivity;
 import com.umdcs4995.whiteboard.R;
 
 import java.io.ByteArrayOutputStream;

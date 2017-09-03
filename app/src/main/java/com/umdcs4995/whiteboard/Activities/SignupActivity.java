@@ -1,4 +1,4 @@
-package com.umdcs4995.whiteboard;
+package com.umdcs4995.whiteboard.Activities;
 
 
 import android.app.ProgressDialog;
@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.umdcs4995.whiteboard.R;
 
 /**
  * Class used to signup users with email and password combinations.

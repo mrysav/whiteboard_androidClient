@@ -1,4 +1,4 @@
-package com.umdcs4995.whiteboard;
+package com.umdcs4995.whiteboard.Activities;
 
 import android.net.Uri;
 import android.os.Bundle;

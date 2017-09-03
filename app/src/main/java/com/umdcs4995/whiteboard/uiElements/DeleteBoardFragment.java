@@ -5,18 +5,10 @@ import android.app.Dialog;
 import android.support.v4.app.DialogFragment;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.Toast;
 
 import com.umdcs4995.whiteboard.Globals;
 import com.umdcs4995.whiteboard.R;
 import com.umdcs4995.whiteboard.services.SocketService;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import contacts.ContactWb;
-import io.socket.emitter.Emitter;
 
 /**
  * Created by goebe076 on 4/17/2016.

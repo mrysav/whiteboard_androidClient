@@ -11,12 +11,10 @@ import android.util.Log;
 
 import com.umdcs4995.whiteboard.AppConstants;
 import com.umdcs4995.whiteboard.Globals;
-import com.umdcs4995.whiteboard.MainActivity;
 import com.umdcs4995.whiteboard.drawing.DrawingView;
 import com.umdcs4995.whiteboard.protocol.WhiteboardProtocol;
 import com.umdcs4995.whiteboard.services.ConnectivityException;
 
-import java.net.URL;
 import java.util.LinkedList;
 
 /**

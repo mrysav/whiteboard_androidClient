@@ -1,11 +1,8 @@
 package com.umdcs4995.whiteboard.uiElements;
 
-import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
-import android.preference.PreferenceManager;
-import android.provider.Settings;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
@@ -13,13 +10,11 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
 import com.umdcs4995.whiteboard.Globals;
-import com.umdcs4995.whiteboard.MainActivity;
+import com.umdcs4995.whiteboard.Activities.MainActivity;
 import com.umdcs4995.whiteboard.R;
 import com.umdcs4995.whiteboard.protocol.BuddyListProtocol;
 import com.umdcs4995.whiteboard.services.ConnectivityException;
@@ -32,9 +27,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.LinkedList;
 
-import contacts.ContactList;
-import contacts.ContactListAdapter;
-import contacts.ContactWb;
 import io.socket.emitter.Emitter;
 
 /**
@@ -105,7 +97,7 @@ public class ContactListFragment extends Fragment {
     }
 
     /**
-     * Briefly setup some test contacts.
+     * Briefly setup some test com.umdcs4995.whiteboard.contacts.
      */
     private void setupTestContacts() {
 
